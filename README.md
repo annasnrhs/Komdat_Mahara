@@ -5,11 +5,11 @@
 :---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 ## Sekilas Tentang
-[`Back to top`](#)<br>
+[`^Back to top^`](#)<br>
 **Mahara** adalah salah satu *electronic portfolio management system*, aplikasi web ini bersifat gratis dan *open source*. Berdasarkan *website* resminya pada Mahara ini pengguna dapat mengunggah file, membuat jurnal, menyematkan sumber daya media sosial dari web serta berkolaborasi dengan pengguna lain dalam kelompok. Mahara mengabungkan antara dua hal yaitu *ePortfolio* dan sistem *social networking*. Mahara dikembangkan sejak 2006 sebagai suatu proyek kolaborasi antara *Massey University, Auckland University of Technology, The Open Polytechnic of New Zealand* dan *Victoria University of Wellington*, yang didanai oleh komisi pendidikan Selandia Baru.
 
 ## Instalasi
-[`Back to top`](#)
+[`^Back to top^`](#)
 
 #### Kebutuhan Sistem :
 - Unix, Linux atau minimum Windows 7.
