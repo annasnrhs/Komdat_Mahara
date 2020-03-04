@@ -217,27 +217,30 @@ Untuk melakukan export format file yang bisa dipilih yaitu html atau xml
 
 ## Pembahasan
 [`^Back to top^`](#)
-**Mahara** adalah sebuah aplikasi berbasis website yang menyediakan layanan *e-portfolio* untuk pelajar yang ditulis dalam bahasa pemrograman PHP. Beberapa hal yang bisa dilakukan untuk melakukan manajemen dengan **Mahara** diantaranya:
-
+**Mahara** adalah sebuah aplikasi berbasis website yang menyediakan layanan *e-portfolio* untuk pelajar yang ditulis dalam bahasa pemrograman PHP.
+Kelebihan dari aplikasi mahara ini antara lain :
 - Mendukung integrasi dengan web server lain, contohnya moodle.
-- Mudah untuk melakukan sharing dan kolaborasi dengan orang lain.
-- Dapat menambahkan umpan balik atau *feedback* ke halaman *e-portofolio* dan fitur penilaian dengan bintang yang efektif.
-- Dapat membuat portofolio yang saling terhubung.
-- Sangat baik untuk portofolio dengan visualisasi yang baik, mahara dapat disematkan berbagai fitur yang dapat diputar di layar misalnya YouTube, SlideShare, GoogleDocs dll.
+- Mudah untuk melakukan sharing serta kolaborasi 
 - Dapat menambahkan teks, gambar, video, suara, URL, dan HTML.
+- Tersedia untuk aplikasi mobile di Android ataupun iOS
 
 Kekurangan dari aplikasi ini antara lain:
 - Pengguna tidak dapat menghapus komen feedback yang sudah diberikan.
-- Untuk backup data hanya dengan cara mengekspor.
-- Tidak ada recycle bin, tidak dapat di undo pekerjaan yang sudah dilakukan.
-- Beberapa operasi hanya dapat dilakukan dengan cepat dengan merubahnya langsung lewat database.
-- Bandingkan dengan aplikasi web kelompok lain yang sejenis.
-- Bahasa yang tersedia masih belum terlalu banyak, termasuk bahasa Indoneia.
+- Bahasa yang tersedia masih belum terlalu banyak.
 
-**Bandingkan dengan aplikasi web kelompok lain yang sejenis**
-Dengan Moodle
+**Bandingkan dengan aplikasi web yang sejenis**
 
-**Moodle** digunakan sebagai tempat untuk memberikan informasi(karena moodle adalah learning management system) sedangkan mahara adalah tempat untuk membagikan dan juga sebagai tempat untuk diskusi dimana mahara dapat digunakan untuk memberikan feedback secara peer to peer. Mahara dapat terintegrasi dengan moodle.
+Dengan *Learning Management System*
+Mahara | LMS 
+-------|----
+Pengguna sebagai pusat perhatian | Kursus sebagai pusat perhatian
+Guru sebagai pembuat peraturan | Pengguna mendefenisikan peraturannya sendiri
+Materi dapat dilihat oleh seluruh anggota kursus | Orang lain dapat melihat yang diizinkan saja
+formal | informal
+*social networking* hanya ada di sekitar kursus | pengguna menentukan *social networking*
+
+
+Mahara lebih bersifat *student centric* sedangkan LMS bersifat *course centric*. LMS mengotomatisasi administrasi kegiatan pelatihan.
 
 ## Referensi
 [`Back to top`](#)
