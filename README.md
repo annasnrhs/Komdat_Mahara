@@ -93,7 +93,7 @@ $cfg->dbhost   = 'localhost';
 $cfg->dbport   = null;
 $cfg->dbname   = 'mahara';
 $cfg->dbuser   = 'maharauser';
-$cfg->dbpass   = '';
+$cfg->dbpass   = 'mahara';
 $cfg->dataroot = '/var/www/html/mahara/upload/';
 ```
 
@@ -131,8 +131,8 @@ CustomLog /var/log/apache2/komdat.com-access_log common
 
 - Install curl dan xml
 ```
-sudo apt-get install php7.2-curl -y
-sudo apt-get install php7.2-xml
+sudo apt-get install php5.6-curl -y
+sudo apt-get install php5.6-xml
 ```
 
 - Restart 
@@ -145,7 +145,7 @@ sudo service apache2 restart
 - Buka di browser
 
 ```
-http://localhost/mahara atau http://localhost:8000/mahara/htdocs
+http://localhost/mahara
 ```
 
 
@@ -153,9 +153,7 @@ http://localhost/mahara atau http://localhost:8000/mahara/htdocs
 [`^Back to top^`](#)<br>
 Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di windows menggunakan XAMPP. Berikut cara install nya.
 1. Kunjungi website https://mahara.org/
-<h1 align="center"><img src="tampilan depan.png"></h1>
 2. Pada halaman home, klik download mahara
-<h1 align="center"><img src="buat download.png"></h1>
 3. Download file .zip 
 4. Extract file mahara-19.10.2.zip
 5. Setelah diextract, di dalam folder tersebut terdapat folder htdocs. Masuk ke dalam folder tersebut, copy semua file yang ada di sana.
@@ -164,7 +162,6 @@ Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di win
 8. Buka XAMPP, start Apache dan MySQL
 9. Buka http://localhost/phpmyadmin/ di browser
 10. Pada phpmyadmin, buat database baru dengan nama db_mahara, penyortiran utf8_bin
-<h1 align="center"><img src="bikin db baru"></h1>
 11. Cari file config-dist.php di folder mahara yang dibuat tadi
 12. Duplikat file ini dengan nama config.php
 13. Edit file config.php, sehingga menjadi seperti berikut :
@@ -176,8 +173,6 @@ Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di win
       $cfg->dbuser   = 'root';
       $cfg->dbpass   = '';
 ```
-<h1 align="center"><img src="ubah config.png"></h1>
-
 14. Setelah itu buka http://localhost/mahara/ di browser
 15. Akan muncul perintah install, lakukan instalasi sampai selesai
 16. Setelah itu, masukkan password baru dan alamat email
@@ -210,6 +205,7 @@ Kekurangan dari aplikasi ini antara lain:
 - Bandingkan dengan aplikasi web kelompok lain yang sejenis.
 - Bahasa yang tersedia masih belum terlalu banyak, termasuk bahasa Indoneia.
 
+**Bandingkan dengan aplikasi web kelompok lain yang sejenis**
 Dengan Moodle
 
 Moodle digunakan sebagai tempat untuk memberikan informasi(karena moodle adalah learning management system) sedangkan mahara adalah tempat untuk membagikan dan juga sebagai tempat untuk diskusi dimana mahara dapat digunakan untuk memberikan feedback secara peer to peer. Mahara dapat terintegrasi dengan moodle.
