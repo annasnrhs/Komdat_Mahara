@@ -236,9 +236,9 @@ Kekurangan dari aplikasi ini antara lain:
 **Bandingkan dengan aplikasi web yang sejenis**
 
 Dengan *Learning Management System*
-|Mahara | LMS| 
+| LMS | Mahara| 
 |-------|----|
-|Pengguna sebagai pusat perhatian | Kursus sebagai pusat perhatian|
+|Kursus sebagai pusat perhatian | Pengguna sebagai pusat perhatian|
 |Guru sebagai pembuat peraturan | Pengguna mendefenisikan peraturannya sendiri|
 |Materi dapat dilihat oleh seluruh anggota kursus | Orang lain dapat melihat yang diizinkan saja|
 |Formal | Informal|
@@ -250,7 +250,7 @@ Mahara lebih bersifat *student centric* sedangkan LMS bersifat *course centric*.
 ## Referensi
 [`Back to top`](#)
 1. [About Mahara](https://mahara.org/) - Mahara
-2. [System Administrator's Guide/Upgrading Mahara](https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Upgrading_Mahara) - Upgrading Mahara
-3. [System Administrator's Guide/Installing Mahara](https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara) - Installing Mahara
-4. [Mahara online user manual](https://manual.mahara.org) - Mahara
-5. [Install mahara menggunakan XAMPP](https://ilmukomputer.org/wp-content/uploads/2010/05/Mudafiq-InstalasiMaharaDiWindows.pdf) -install
+2. [System Administrator's Guide/Upgrading Mahara](https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Upgrading_Mahara) - wiki Mahara
+3. [System Administrator's Guide/Installing Mahara](https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara) - wiki Mahara
+4. [Mahara online user manual](https://manual.mahara.org) - Manual Mahara
+5. [Install mahara menggunakan XAMPP](https://ilmukomputer.org/wp-content/uploads/2010/05/Mudafiq-InstalasiMaharaDiWindows.pdf) - install
