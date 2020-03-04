@@ -35,6 +35,7 @@ Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di win
 1. Kunjungi website https://mahara.org/
 2. Pada halaman home, klik download mahara
 3. Download file .zip 
+![buat download](buat download.png)
 4. Extract file mahara-19.10.2.zip
 5. Setelah diextract, di dalam folder tersebut terdapat folder htdocs. Masuk ke dalam folder tersebut, copy semua file yang ada di sana.
 6. Masuk ke directory di mana XAMPP di install, biasanya ada di **C:\xampp\htdocs**
