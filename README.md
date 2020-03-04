@@ -1,4 +1,3 @@
-# Aplikasi Web "Mahara"
 <h1 align = "center"><img src = "https://mahara.org/theme/mahara-org/images/site-logo.svg?v=3775"></h1>
 
 [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
