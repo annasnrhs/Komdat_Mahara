@@ -183,12 +183,7 @@ Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di win
 
 ## Cara Pemakaian
 [`^Back to top^`](#)
-Berikut ini cara pemakaian web server Mahara:
-1. 
-
-- Tampilan aplikasi web
-- Fungsi-fungsi utama
-- Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
+Web server mahara ini cukup mudah 
 
 
 ## Pembahasan
