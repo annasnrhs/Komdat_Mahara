@@ -153,9 +153,9 @@ http://localhost/mahara
 [`^Back to top^`](#)<br>
 Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di windows menggunakan XAMPP. Berikut cara install nya.
 1. Kunjungi website https://mahara.org/
-<h1 align="center"><img src="tampilan depan.png"></h1>
+<h1 align="center"><img src="Screenshot/tampilan depan.png"></h1>
 2. Pada halaman home, klik download mahara
-<h1 align="center"><img src="buat download.png"></h1>
+<h1 align="center"><img src="Screenshot/buat download.png"></h1>
 3. Download file .zip 
 4. Extract file mahara-19.10.2.zip
 5. Setelah diextract, di dalam folder tersebut terdapat folder htdocs. Masuk ke dalam folder tersebut, copy semua file yang ada di sana.
@@ -164,7 +164,7 @@ Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di win
 8. Buka XAMPP, start Apache dan MySQL
 9. Buka http://localhost/phpmyadmin/ di browser
 10. Pada phpmyadmin, buat database baru dengan nama db_mahara, penyortiran utf8_bin
-<h1 align="center"><img src="bikin db baru"></h1>
+<h1 align="center"><img src="Screenshot/bikin db baru"></h1>
 11. Cari file config-dist.php di folder mahara yang dibuat tadi
 12. Duplikat file ini dengan nama config.php
 13. Edit file config.php, sehingga menjadi seperti berikut :
@@ -176,17 +176,17 @@ Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di win
       $cfg->dbuser   = 'root';
       $cfg->dbpass   = '';
 ```
-<h1 align="center"><img src="ubah config.png"></h1>
+<h1 align="center"><img src="Screenshot/ubah config.png"></h1>
 14. Setelah itu buka http://localhost/mahara/ di browser
 15. Akan muncul perintah install, lakukan instalasi sampai selesai
-<h1 align="center"><img src="localhost mahara.png"></h1>
+<h1 align="center"><img src="Screenshot/localhost mahara.png"></h1>
 <br>
-<h1 align="center"><img src="install cont.png"></h1>
+<h1 align="center"><img src="Screenshot/install cont.png"></h1>
 16. Setelah itu, masukkan password baru dan alamat email
     Catatan : password harus kombinasi huruf, angka, dan simbol dengan panjang minimal 8 karakter
-<h1 align="center"><img src="kofigurasi.png"></h1>
+<h1 align="center"><img src="Screenshot/kofigurasi.png"></h1>
 17. Setelah sub,it, maka aplikasi mahara telah terinstal
-<h1 align="center"><img src="berhasil masuk.png"></h1>
+<h1 align="center"><img src="Screenshot/berhasil masuk.png"></h1>
 
     
 
@@ -196,10 +196,10 @@ Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di win
 Web server mahara ini cukup sederhana mudah untuk digunakan, pengguna hanya perlu memilih fitur yang ingin digunakan. Beberapa fitur yang disediakan oleh web server ini yaitu :
 1. Membuat resume, plan, catatan, jurnal, dll.
 Untuk membuat salah satu dari fitur tersebut cukup klik menu dashboard. Pada bagian create akan muncul beberapa pilihan.
-<h1 align="center"><img src="fungsi yang bisa dibuat.png"></h1>
+<h1 align="center"><img src="Screenshot/fungsi yang bisa dibuat.png"></h1>
 2. Membuat grup, serta melakukan diskusi sesuai dengan topik - topik tertentu
 Fitur ini juga ada pada menu dashboard
-<h1 align="center"><img src="fitur bersama.png"></h1>
+<h1 align="center"><img src="Screenshot/fitur bersama.png"></h1>
 3. Melakukan export atau import untuk portfolio yang telah dibuat
 Untuk melakukan export format file yang bisa dipilih yaitu html atau xml
 
