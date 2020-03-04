@@ -22,7 +22,7 @@
 1. 
 
 ## Konfigurasi (opsional)
-[`Back to top`](#)
+[`^Back to top^`](#)
 
 - 
 - batas memori
@@ -30,8 +30,8 @@
 
 
 ## Otomatisasi
-[`Back to top`](#)
-Selain diinstall melalui server ubuntu, mahara juga dapat diinstall di windows menggunakan XAMPP. Berikut cara install nya.
+[`^Back to top^`](#)<br>
+Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di windows menggunakan XAMPP. Berikut cara install nya.
 1. Kunjungi website https://mahara.org/
 2. Pada halaman home, klik download mahara
 3. Download file .zip 
@@ -48,7 +48,7 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 
 ## Cara Pemakaian
-[`Back to top`](#)
+[`^Back to top^`](#)
 Berikut ini cara pemakaian web server Mahara:
 1. 
 
@@ -58,7 +58,7 @@ Berikut ini cara pemakaian web server Mahara:
 
 
 ## Pembahasan
-[`Back to top`](#)
+[`^Back to top^`](#)
 
 - Pendapat anda tentang aplikasi web ini
 
