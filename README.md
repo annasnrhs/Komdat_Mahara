@@ -174,21 +174,15 @@ Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di win
 <br>
 
 10. Pada phpmyadmin, buat database baru dengan nama db_mahara, penyortiran utf8_bin
-<h1 align="center"><img src="Screenshot/bikin db baru"></h1>
+<br>
+<h1 align="center"><img src="Screenshot/bikin db baru.png"></h1>
 <br>
 11. Cari file config-dist.php di folder mahara yang dibuat tadi
 <br>
 12. Duplikat file ini dengan nama config.php
 <br>
-13. Edit file config.php, sehingga menjadi seperti berikut :
-```
-$cfg->dbtype   = 'mysql5';
-$cfg->dbhost   = 'localhost';
-$cfg->dbport   = null; 
-$cfg->dbname   = 'db_mahara';
-$cfg->dbuser   = 'root';
-$cfg->dbpass   = '';
-```
+13. Edit file config.php
+<br>
 <h1 align="center"><img src="Screenshot/ubah config.png"></h1>
 <br>
 
