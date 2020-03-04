@@ -172,7 +172,6 @@ Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di win
 <br>
 9. Buka http://localhost/phpmyadmin/ di browser
 <br>
-
 10. Pada phpmyadmin, buat database baru dengan nama db_mahara, penyortiran utf8_bin
 <br>
 <h1 align="center"><img src="Screenshot/bikin db baru.png"></h1>
@@ -231,13 +230,13 @@ Kekurangan dari aplikasi ini antara lain:
 **Bandingkan dengan aplikasi web yang sejenis**
 
 Dengan *Learning Management System*
-Mahara | LMS 
--------|----
-Pengguna sebagai pusat perhatian | Kursus sebagai pusat perhatian
-Guru sebagai pembuat peraturan | Pengguna mendefenisikan peraturannya sendiri
-Materi dapat dilihat oleh seluruh anggota kursus | Orang lain dapat melihat yang diizinkan saja
-formal | informal
-*social networking* hanya ada di sekitar kursus | pengguna menentukan *social networking*
+|Mahara | LMS| 
+|-------|----|
+|Pengguna sebagai pusat perhatian | Kursus sebagai pusat perhatian|
+|Guru sebagai pembuat peraturan | Pengguna mendefenisikan peraturannya sendiri|
+|Materi dapat dilihat oleh seluruh anggota kursus | Orang lain dapat melihat yang diizinkan saja|
+|Formal | Informal|
+|*social networking* hanya ada di sekitar kursus | pengguna menentukan *social networking*|
 
 
 Mahara lebih bersifat *student centric* sedangkan LMS bersifat *course centric*. LMS mengotomatisasi administrasi kegiatan pelatihan.
