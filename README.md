@@ -12,7 +12,7 @@
 [`^Back to top^`](#)
 
 #### Kebutuhan Sistem :
-- **Server OS**: Debian GNU/ Linux Debian GNU/Linux (semua versi mulai dar 6/"Squeeze"), Ubuntu GNU/Linux, semua versi mulai dari 12.04/"Lucid Lynx".
+- Server OS: Debian GNU/ Linux Debian GNU/Linux (semua versi mulai dar 6/"Squeeze"), Ubuntu GNU/Linux, semua versi mulai dari 12.04/"Lucid Lynx".
 - Web Server : Apache, semua versi mulai dari versi 2.
 - Database Server : PostgreSQL (semua versi mulai dari 9.1), MySQL (semua versi mulai dari 5.1)
 - PHP : minimal versi 7
@@ -37,6 +37,8 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 ## Cara Pemakaian
 [`Back to top`](#)
+Berikut ini cara pemakaian web server Mahara:
+1. 
 
 - Tampilan aplikasi web
 - Fungsi-fungsi utama
@@ -47,6 +49,7 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 [`Back to top`](#)
 
 - Pendapat anda tentang aplikasi web ini
+
 **Kelebihan**
 - Mendukung integrasi dengan web server lain, contohnya moodle
 - 
