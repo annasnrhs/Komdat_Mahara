@@ -5,9 +5,9 @@
 
 | NIM | Nama | 
 | ----- | ----- | 
-| Qarry Atul Chairunnisa  (G64170014) |
-| Indah Puspita           (G64170035) |
-| Siti Nur Hasanah        (G64170036) |
+| G64170011 | Rahayuning Hardatin |
+| G64170035 | Indah Puspita            |
+| G64170036 | Siti Nur Hasanah        |
 
 ## Sekilas Tentang
 [`^Back to top^`](#)<br>
