@@ -12,8 +12,11 @@
 [`^Back to top^`](#)
 
 #### Kebutuhan Sistem :
-- OS: Debian GNU/ Linux Debian GNU/Linux, all versions from 6/"Squeeze"
-- 
+- **Server OS**: Debian GNU/ Linux Debian GNU/Linux (semua versi mulai dar 6/"Squeeze"), Ubuntu GNU/Linux, semua versi mulai dari 12.04/"Lucid Lynx".
+- Web Server : Apache, semua versi mulai dari versi 2.
+- Database Server : PostgreSQL (semua versi mulai dari 9.1), MySQL (semua versi mulai dari 5.1)
+- PHP : minimal versi 7
+- Memory : minimal 256 MB, direkomendasikan 1 GB.
 
 #### Proses Instalasi :
 1. 
@@ -44,66 +47,13 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 [`Back to top`](#)
 
 - Pendapat anda tentang aplikasi web ini
-    - kelebihan
-    - kekurangan
-- Bandingkan dengan aplikasi web lain yang sejenis
+**Kelebihan**
+- Mendukung integrasi dengan web server lain, contohnya moodle
+- 
+
+**Kekurangan**
+- Bahasa yang tersedia masih belum terlalu banyak, termasuk bahasa Indoneia.
 
 
 ## Referensi
 [`Back to top`](#)
-# Aplikasi Web "Mahara"
-## Sekilas Tentang
-
-Deskripsi singkat tentang aplikasi tsb.
-
-
-## Instalasi
-
-- Prasyarat, apa saja yang harus diinstal sebelumnya.
-- Langkah instalasi dalam CLI.
-
-
-## Konfigurasi (opsional)
-
-Setting server tambahan yang diperlukan untuk meningkatkan fungsi dan kinerja aplikasi, misalnya:
-- batas upload file
-- batas memori
-- dll
-
-Plugin untuk fungsi tambahan
-- login dengan Google/Facebook
-- editor Markdown
-- dll
-
-
-##  Maintenance (opsional)
-
-Setting tambahan untuk maintenance secara periodik, misalnya:
-- buat backup database tiap pekan
-- hapus direktori sampah tiap hari
-- dll
-
-
-## Otomatisasi (opsional)
-
-Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
-
-
-## Cara Pemakaian
-
-- Tampilan aplikasi web
-- Fungsi-fungsi utama
-- Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
-
-
-## Pembahasan
-
-- Pendapat anda tentang aplikasi web ini
-    - kelebihan
-    - kekurangan
-- Bandingkan dengan aplikasi web lain yang sejenis
-
-
-## Referensi
-
-Cantumkan tiap sumber informasi yang anda pakai.
