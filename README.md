@@ -154,30 +154,46 @@ http://localhost/mahara
 Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di windows menggunakan XAMPP. Berikut cara install nya.
 1. Kunjungi website https://mahara.org/
 <h1 align="center"><img src="Screenshot/tampilan depan.png"></h1>
+<br>
 2. Pada halaman home, klik download mahara
 <h1 align="center"><img src="Screenshot/buat download.png"></h1>
+<br>
 3. Download file .zip 
+<br>
 4. Extract file mahara-19.10.2.zip
+<br>
 5. Setelah diextract, di dalam folder tersebut terdapat folder htdocs. Masuk ke dalam folder tersebut, copy semua file yang ada di sana.
+<br>
 6. Masuk ke directory di mana XAMPP di install, biasanya ada di **C:\xampp\htdocs**
+<br>
 7. Di dalam folder htdocs xampp tersebut, buatlah folder baru dengan nama mahara, kemudian paste (CTRL + V) semua file ke folder ini.
+<br>
 8. Buka XAMPP, start Apache dan MySQL
+<br>
 9. Buka http://localhost/phpmyadmin/ di browser
+<br>
+
 10. Pada phpmyadmin, buat database baru dengan nama db_mahara, penyortiran utf8_bin
 <h1 align="center"><img src="Screenshot/bikin db baru"></h1>
+<br>
 11. Cari file config-dist.php di folder mahara yang dibuat tadi
+<br>
 12. Duplikat file ini dengan nama config.php
+<br>
 13. Edit file config.php, sehingga menjadi seperti berikut :
 ```
-      $cfg->dbtype   = 'mysql5';
-      $cfg->dbhost   = 'localhost';
-      $cfg->dbport   = null; 
-      $cfg->dbname   = 'db_mahara';
-      $cfg->dbuser   = 'root';
-      $cfg->dbpass   = '';
+$cfg->dbtype   = 'mysql5';
+$cfg->dbhost   = 'localhost';
+$cfg->dbport   = null; 
+$cfg->dbname   = 'db_mahara';
+$cfg->dbuser   = 'root';
+$cfg->dbpass   = '';
 ```
 <h1 align="center"><img src="Screenshot/ubah config.png"></h1>
+<br>
+
 14. Setelah itu buka http://localhost/mahara/ di browser
+<br>
 15. Akan muncul perintah install, lakukan instalasi sampai selesai
 <h1 align="center"><img src="Screenshot/localhost mahara.png"></h1>
 <br>
@@ -185,9 +201,10 @@ Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di win
 16. Setelah itu, masukkan password baru dan alamat email
     Catatan : password harus kombinasi huruf, angka, dan simbol dengan panjang minimal 8 karakter
 <h1 align="center"><img src="Screenshot/kofigurasi.png"></h1>
+<br>
 17. Setelah sub,it, maka aplikasi mahara telah terinstal
 <h1 align="center"><img src="Screenshot/berhasil masuk.png"></h1>
-
+<br>
     
 
 
