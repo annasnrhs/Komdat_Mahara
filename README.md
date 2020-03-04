@@ -115,18 +115,18 @@ sudo nano /etc/apache2/sites-available/mahara.conf
 *Kemudian tambahkan baris-baris berikut:*
 ```
 <VirtualHost *:80>
-ServerAdmin komdat9@gmail.com
+ServerAdmin email@contoh.com
 DocumentRoot /var/www/html/mahara/htdocs/
-ServerName localhost:8888
-ServerAlias localhost:8888
+ServerName localhost:8000
+ServerAlias localhost:8000
 <Directory /var/www/html/mahara/htdocs/>
 Options FollowSymLinks
 AllowOverride All
 Order allow,deny
 allow from all
 </Directory>
-ErrorLog /var/log/apache2/localhost:8888-error_log
-CustomLog /var/log/apache2/localhost:8888-access_log common
+ErrorLog /var/log/apache2/localhost:8000-error_log
+CustomLog /var/log/apache2/localhost:8000-access_log common
 </VirtualHost>
 ```
 
