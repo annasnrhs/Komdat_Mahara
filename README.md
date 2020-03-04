@@ -143,6 +143,7 @@ sudo service apache2 restart
 ```
 
 - Buka di browser
+
 ```
 http://localhost/mahara
 ```
