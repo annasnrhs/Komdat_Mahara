@@ -12,8 +12,8 @@
 [`^Back to top^`](#)
 
 #### Kebutuhan Sistem :
-- Unix, Linux atau minimum Windows 7.
-- Python 3.
+- OS: Debian GNU/ Linux Debian GNU/Linux, all versions from 6/"Squeeze"
+- 
 
 #### Proses Instalasi :
 1. 
