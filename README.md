@@ -45,12 +45,14 @@ Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di win
 11. Cari file config-dist.php di folder mahara yang dibuat tadi
 12. Duplikat file ini dengan nama config.php
 13. Edit file config.php, sehingga menjadi seperti berikut :
+```
       $cfg->dbtype   = 'mysql5';
       $cfg->dbhost   = 'localhost';
       $cfg->dbport   = null; 
       $cfg->dbname   = 'db_mahara';
       $cfg->dbuser   = 'root';
       $cfg->dbpass   = '';
+```
 14. Setelah itu buka http://localhost/mahara/ di browser
 15. Akan muncul perintah install, lakukan instalasi sampai selesai
 16. Setelah itu, masukkan password baru dan alamat email
