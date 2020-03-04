@@ -72,3 +72,7 @@ Berikut ini cara pemakaian web server Mahara:
 
 ## Referensi
 [`Back to top`](#)
+1. [About Mahara](https://mahara.org/) - Mahara
+2. [System Administrator's Guide/Upgrading Mahara](https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Upgrading_Mahara) - Upgrading Mahara
+3. [System Administrator's Guide/Installing Mahara](https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara) - Installing Mahara
+4. [Mahara online user manual](https://manual.mahara.org) - Mahara
