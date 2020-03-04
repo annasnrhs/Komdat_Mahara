@@ -29,8 +29,10 @@
 - dll
 
 
-## Otomatisasi (opsional)
+## Otomatisasi
 [`Back to top`](#)
+Selain diinstall melalui server ubuntu, mahara juga dapat diinstall di windows menggunakan XAMPP. Berikut cara install nya.
+1. Kunjungi website [mahara] (https://mahara.org/)
 
 Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
