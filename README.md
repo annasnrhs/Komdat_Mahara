@@ -64,7 +64,7 @@ Berikut ini cara pemakaian web server Mahara:
 
 **Kelebihan**
 - Mendukung integrasi dengan web server lain, contohnya moodle
-- 
+- Mudah untuk melakukan sharing dan kolaborasi dengan orang lain
 
 **Kekurangan**
 - Bahasa yang tersedia masih belum terlalu banyak, termasuk bahasa Indoneia.
