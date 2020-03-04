@@ -148,13 +148,6 @@ sudo service apache2 restart
 http://localhost/mahara
 ```
 
-## Konfigurasi (opsional)
-[`^Back to top^`](#)
-
-- 
-- batas memori
-- dll
-
 
 ## Otomatisasi
 [`^Back to top^`](#)<br>
@@ -187,8 +180,6 @@ Selain dapat diinstall melalui server ubuntu, mahara juga dapat diinstall di win
 17. Setelah sub,it, maka aplikasi mahara telah terinstal
     
 
-Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
-
 
 ## Cara Pemakaian
 [`^Back to top^`](#)
@@ -219,4 +210,4 @@ Berikut ini cara pemakaian web server Mahara:
 2. [System Administrator's Guide/Upgrading Mahara](https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Upgrading_Mahara) - Upgrading Mahara
 3. [System Administrator's Guide/Installing Mahara](https://wiki.mahara.org/wiki/System_Administrator%27s_Guide/Installing_Mahara) - Installing Mahara
 4. [Mahara online user manual](https://manual.mahara.org) - Mahara
-5. [Install mahara menggunakan XAMPP](https://ilmukomputer.org/wp-content/uploads/2010/05/Mudafiq-InstalasiMaharaDiWindows.pdf)
+5. [Install mahara menggunakan XAMPP](https://ilmukomputer.org/wp-content/uploads/2010/05/Mudafiq-InstalasiMaharaDiWindows.pdf) -install
