@@ -32,7 +32,17 @@
 ## Otomatisasi
 [`Back to top`](#)
 Selain diinstall melalui server ubuntu, mahara juga dapat diinstall di windows menggunakan XAMPP. Berikut cara install nya.
-1. Kunjungi website [mahara] (https://mahara.org/)
+1. Kunjungi website https://mahara.org/
+2. Pada halaman home, klik download mahara
+3. Download file .zip 
+4. Extract file mahara-19.10.2.zip
+5. Setelah diextract, di dalam folder tersebut terdapat folder htdocs. Masuk ke dalam folder tersebut, copy semua file yang ada di sana.
+6. Masuk ke directory di mana XAMPP di install, biasanya ada di **C:\xampp\htdocs**
+7. Di dalam folder htdocs xampp tersebut, buatlah folder baru dengan nama mahara, kemudian paste (CTRL + V) semua file ke folder ini.
+8. Buka XAMPP, start Apache dan MySQL
+9. Buka http://localhost/phpmyadmin/ di browser
+10. Pada phpmyadmin, buat database baru dengan nama db_mahara, penyortiran utf8_bin
+11. 
 
 Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
