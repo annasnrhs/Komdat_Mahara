@@ -117,16 +117,16 @@ sudo nano /etc/apache2/sites-available/mahara.conf
 <VirtualHost *:80>
 ServerAdmin email@contoh.com
 DocumentRoot /var/www/html/mahara/htdocs/
-ServerName localhost:8000
-ServerAlias localhost:8000
+ServerName komdat.com
+ServerAlias komdat.com
 <Directory /var/www/html/mahara/htdocs/>
 Options FollowSymLinks
 AllowOverride All
 Order allow,deny
 allow from all
 </Directory>
-ErrorLog /var/log/apache2/localhost:8000-error_log
-CustomLog /var/log/apache2/localhost:8000-access_log common
+ErrorLog /var/log/apache2/komdat.com-error_log
+CustomLog /var/log/apache2/komdat.com-access_log common
 </VirtualHost>
 ```
 
@@ -188,16 +188,31 @@ Web server mahara ini cukup mudah
 
 ## Pembahasan
 [`^Back to top^`](#)
+**Mahara** adalah sebuah aplikasi berbasis website yang menyediakan layanan yang ditulis dalam bahasa pemrograman PHP. Beberapa hal yang bisa dilakukan untuk melakukan manajemen dengan **Mahara** diantaranya:
 
-- Pendapat anda tentang aplikasi web ini
+- Mendukung integrasi dengan web server lain, contohnya moodle.
+- Mudah untuk melakukan sharing dan kolaborasi dengan orang lain.
+- Dapat menambahkan umpan balik atau *feedback* ke halaman *e-portofolio* dan fitur penilaian dengan bintang yang efektif.
+- Dapat membuat portofolio yang saling terhubung.
+- Sangat baik untuk portofolio dengan visualisasi yang baik, mahara dapat disematkan berbagai fitur yang dapat diputar di layar misalnya YouTube, SlideShare, GoogleDocs dll.
+- Dapat menambahkan teks, gambar, video, suara, URL, dan HTML.
 
-**Kelebihan**
-- Mendukung integrasi dengan web server lain, contohnya moodle
-- Mudah untuk melakukan sharing dan kolaborasi dengan orang lain
-
-**Kekurangan**
+Kekurangan dari aplikasi ini antara lain:
+- Pengguna tidak dapat menghapus komen feedback yang sudah diberikan.
+- Untuk backup data hanya dengan cara mengekspor.
+- Tidak ada recycle bin, tidak dapat di undo pekerjaan yang sudah dilakukan.
+- Beberapa operasi hanya dapat dilakukan dengan cepat dengan merubahnya langsung lewat database.
+- Bandingkan dengan aplikasi web kelompok lain yang sejenis.
 - Bahasa yang tersedia masih belum terlalu banyak, termasuk bahasa Indoneia.
 
+Dengan Moodle
+
+Moodle digunakan sebagai tempat untuk memberikan informasi(karena moodle adalah learning management system) sedangkan mahara adalah tempat untuk membagikan dan juga sebagai tempat untuk diskusi dimana mahara dapat digunakan untuk memberikan feedback secara peer to peer. Mahara dapat terintegrasi dengan moodle.
+
+Dengan Canvas
+
+Canvas mirip dengan moodle, canvas adalah learning management system dimana canvas berbayar dengan free trial selama dua minggu, free unlimited untuk individual, dan berbayar untuk multiple akun. Mahara dapat terintegrasi dengan canvas.
+- Pendapat anda tentang aplikasi web ini
 
 ## Referensi
 [`Back to top`](#)
